@@ -1,0 +1,11 @@
+import { Alert } from 'react-bootstrap';
+
+function Message({ children, variant }) {
+  return <Alert variant={variant}>{children}</Alert>;
+}
+
+Alert.defaultProps = {
+  variant: 'danger',
+};
+
+export default Message;
