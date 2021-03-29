@@ -4,7 +4,7 @@ function Message({ children, variant }) {
   return <Alert variant={variant}>{children}</Alert>;
 }
 
-Alert.defaultProps = {
+Message.defaultProps = {
   variant: 'danger',
 };
 
